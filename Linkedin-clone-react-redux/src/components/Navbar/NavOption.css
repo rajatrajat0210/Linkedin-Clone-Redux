@@ -1,0 +1,23 @@
+.nav-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.nav-option:hover {
+  color: #000;
+}
+
+.nav-option-icon {
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
+}
+
+.nav-option-title {
+  font-size: 12px;
+  font-weight: 400;
+}

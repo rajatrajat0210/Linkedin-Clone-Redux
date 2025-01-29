@@ -1,0 +1,45 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgray;
+  width: 100%;
+  z-index: 400;
+  padding: 5px;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left > svg {
+  object-fit: contain;
+  height: 40px;
+  margin-right: 8px;
+  width: 55px;
+  color: #0074b1;
+}
+
+.nav-search {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 35px;
+  color: gray;
+  background-color: #eef3f8;
+}
+
+.nav-search > input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.nav-right {
+  display: flex;
+}
